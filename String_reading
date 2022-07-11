@@ -1,0 +1,14 @@
+import java.io.*;
+import java .util.*;
+class Stringreading
+{
+public static void main(String args[])
+{
+String Str;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter a string");
+Str=sc.nextLine();
+System.out.println("String="+Str);
+}
+}
+
