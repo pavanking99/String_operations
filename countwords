@@ -1,0 +1,14 @@
+import java.util.*;
+class countwords
+{
+public static void main(String args[])
+{
+System.out.println("count no of words in String\n");
+Scanner sc=new Scanner(System.in);
+String y1;
+System.out.println("enter first String:");
+y1=sc.nextLine();
+int n=y1.length();
+System.out.println(n);
+}
+}
