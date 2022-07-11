@@ -1,0 +1,15 @@
+
+import java.util.*;
+class replace
+{
+public static void main(String args[])
+{
+System.out .print("Replace character"+"\n");
+Scanner sc=new Scanner(System.in);
+String m,n;
+System.out.print("Enter first string: ");
+m=sc.nextLine();
+n=m.replace('a','c');
+System.out.print(n);
+}
+}
